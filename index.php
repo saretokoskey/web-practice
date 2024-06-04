@@ -10,7 +10,7 @@
     <h2>Login Form</h2>
 <form action="Home_page.php" method="post">
   <div class="imgcontainer">
-    <img src="img\kezia.jpg" alt="Avatar" class="avatar">
+    <img src="img\login_icon.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">

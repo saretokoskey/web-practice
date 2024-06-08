@@ -39,8 +39,5 @@
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
-
-
-c:\Users\DELL\Downloads\data.sql
 </body>
 </html>

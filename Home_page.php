@@ -68,8 +68,8 @@
 
 <div class="container">
   <h1 class="mt-5 mb-4">Time Reporting</h1>
-  <button id="reportButton" class="btn btn-primary">Report Current Time</button>
-  <button id="submitButton" class="btn btn-success">Submit Existing Time</button>
+  <button id="reportButton" class="btn btn-primary">Check-in  Time</button>
+  <button id="submitButton" class="btn btn-success">Existing Time</button>
 </div>
 <!-- </form> -->
 

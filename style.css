@@ -7,14 +7,14 @@ body{
 }
 form{
     border: 3px solid #f1f1f1;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     background: #f1f1f1;
     max-width: 300px;
     max-height: 600px;
     margin: auto;
     position: relative;
-    top: 10px;
+    top: 50px;
 
 }
 input[type=text], input[type=password] {

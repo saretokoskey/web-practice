@@ -24,19 +24,37 @@
 
     <input type="text" placeholder="Enter Username" name="uname" required >
 
-    <label for="psw"><b>Password</b></label>
-
-    <input type="password" placeholder="Enter Password" name="psw" required >
+    <div class="form-group mb-2">
+                    <label for="myInput" class="form-control-label">Password</label>
+                    <input name="password" type="password" class="form-control" id="myInput">
+                    <br>
+                    <input type="checkbox" id="showPasswordCheckbox"> Show Password
+                </div>
+                
+                <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    var passwordInput = document.getElementById("myInput");
+                    var checkbox = document.getElementById("showPasswordCheckbox");
+                    
+                    checkbox.addEventListener("click", function() {
+                        if (checkbox.checked) {
+                            passwordInput.type = "text";
+                        } else {
+                            passwordInput.type = "password";
+                        }
+                    });
+                });
+                </script>
         
     <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
   </div>
+  <a href="" class="mb-2">forgot password</a>
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
+    <!-- <a href="" class="mb-2">forgot password</a> -->
+                                    <!-- <input name="login" type="submit" value="Login" class="btn btn-primary w-100"> -->
   </div>
 </form>
 </body>

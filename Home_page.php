@@ -57,7 +57,7 @@
                 <div class="banner-text">
                     <h1>MINISTRY OF INVESTMENTS, TRADE & INDUSTRY</h1>
                     <h2>STATE DEPARTMENT FOR TRADE</h2>
-                    <h4>DEPARTMENTAL STAFF AUTOMATIC REPORTING</h4>
+                    <h4>STAFF ATTENDACE CHECK-IN/OUT SYSTEM </h4>
                     <h2>Welcome</h2>
                           
 
